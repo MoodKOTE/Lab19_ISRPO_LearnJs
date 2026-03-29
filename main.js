@@ -63,11 +63,51 @@
 //     }
 // }
 
-//pr4 
-for (let i = 1; i <= 4; i++){
-    let row = "";
-    for(let j = 1; j <= i; j++){
-        row += "*"
-    }
-    console.log(row);
-}
+// //pr4 
+// for (let i = 1; i <= 4; i++){
+//     let row = "";
+//     for(let j = 1; j <= i; j++){
+//         row += "*"
+//     }
+//     console.log(row);
+// }
+
+// function sum(a, b){
+//     return a + b;
+// }
+// console.log(sum(3,5));
+
+// //pr5
+// function multiply(a, b){
+//     return a * b;
+// };
+// console.log(multiply(3,5));
+
+// function sayHello(name){
+//     console.log(`Hello, ${name}`);
+// }
+// sayHello("Тимофей")
+
+// //pr6
+// function printInfo(name, age){
+//     console.log(`Name: ${name}\n Age: ${age}`);
+// };
+// printInfo("Max", 19);
+
+// function greet(name = "Guest"){
+//     console.log("Hello, " + name);
+// }
+// greet();
+// greet("Anastasia");
+
+// // pr7
+// function calculateDiscount(price, discount = 10){
+//     return price - (price * (discount / 100));
+// }
+// console.log(calculateDiscount(150));
+// console.log(calculateDiscount(150, 15));
+
+const add = function (a, b){
+    return a + b;
+};
+console.log(add(2, 3))
