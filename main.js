@@ -234,14 +234,14 @@
 //     console.log(i + ":" + product[i])
 // }
 
-let student = {
-  name: "Григорий",
-  skills: ["HTML", "CSS", "JS"],
-  address: {
-    city: "Волжский",
-    street: "Пушкина",
-  },
-};
+// let student = {
+//   name: "Григорий",
+//   skills: ["HTML", "CSS", "JS"],
+//   address: {
+//     city: "Волжский",
+//     street: "Пушкина",
+//   },
+// };
 
-console.log(student.skills[0]);
-console.log(student.address.city);
+// console.log(student.skills[0]);
+// console.log(student.address.city);
