@@ -30,16 +30,16 @@
 | Циклы                  | `for`, `while`, `do...while`, `for...of`, `for...in` | `for`, `foreach`, `while`, `do...while`      |
 
 ## Структура проекта
-Lab19_LearnJs_FIO/
-│
-├── README.md # Описание лабораторной работы (данный файл)
-├── index.html # HTML-страница с подключённым скриптом
-├── main.js # Все JavaScript-коды (циклы, функции, массивы, объекты)
-└── img/ # Папка со скриншотами выполнения заданий
-├── gitPushLab19_FIO.png
-├── step5_loopsLab19_FIO.png
-├── step6_functionsLab19_FIO.png
-├── step7_arraysLab19_FIO.png
+- Lab19_LearnJs_FIO/
+
+    - README.md # Описание лабораторной работы (данный файл)
+    - index.html # HTML-страница с подключённым скриптом
+    - main.js # Все JavaScript-коды (циклы, функции, массивы, объекты)
+    - img/ # Папка со скриншотами выполнения заданий
+        - gitPushLab19_FIO.png
+        - step5_loopsLab19_FIO.png
+        - step6_functionsLab19_FIO.png
+        - step7_arraysLab19_FIO.png
 
 ## Выполненные задания (краткое содержание)
 
