@@ -107,7 +107,75 @@
 // console.log(calculateDiscount(150));
 // console.log(calculateDiscount(150, 15));
 
-const add = function (a, b){
-    return a + b;
-};
-console.log(add(2, 3))
+// const add = function (a, b){
+//     return a + b;
+// };
+// console.log(add(2, 3))
+
+// function sumFunc(a, b) {
+//   return a + b;
+// }
+
+// const sumFunc2 = (a, b) => a + b;
+
+// const double = x => x * 2;
+
+// const sayHi = () => console.log("Hi");
+
+// const square = x => x * x;
+
+// const calculate = (a, b) =>{
+//     let result = a + b;
+//     return result * 2;
+// };
+
+// let numberArr = [1, 2, 3, 4, 5];
+// console.log(numberArr);
+// console.log(numberArr[0]);
+// console.log(numberArr[1]);
+// console.log(numberArr.length);
+// numberArr.push(10);
+// console.log(numberArr);
+// numberArr.pop();
+// console.log(numberArr);
+
+// //pr8
+// let colors = ['red', 'blue', 'green']
+// console.log(`${colors[0]}, ${colors[2]}`);
+// colors[1] = 'yellow';
+// for (let i in colors){
+//     console.log(colors[i]);
+// };
+
+// //pr9
+// let students = [];
+// students.push("Max");
+// students.push("Kolya");
+// students.push("Dima");
+// students.pop();
+// console.log(students)
+// for (let i in students){
+//     console.log(students[i]);
+// }
+
+// let number2 = [10, 20, 30];
+// for (let i = 0; i < number2.length; i++){
+//     console.log(number2[i])
+// }
+// for (let value of numbers2) {
+//   console.log(value);
+// }
+// let mixedArray = [1, "text", true, 3.14];
+// console.log(mixedArray);
+
+// console.log(numbersArr.includes(1));
+// console.log(numbersArr.indexOf(2));
+
+// console.log(fruits.includes("яблоко")); // true
+// console.log(fruits.includes("манго")); // false
+
+//pr10
+let cities = ["Москва", "Казань", "Воронеж"]
+if (cities.includes("Москва")){
+    console.log(cities.indexOf("Москва"))
+}
